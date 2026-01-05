@@ -1,0 +1,93 @@
+:root {
+  --color-primary: #4AAB3D;
+  --color-secondary: #1F1F25;
+  --color-body: #6E777D;
+  --color-heading-1: #1f1f25;
+  --color-white:#fff;
+  --color-success: #3EB75E;
+  --color-danger: #FF0003;
+  --color-warning: #FF8F3C;
+  --color-info: #1BA2DB;
+  --color-facebook: #3B5997;
+  --color-twitter: #1BA1F2;
+  --color-youtube: #ED4141;
+  --color-linkedin: #0077B5;
+  --color-pinterest: #E60022;
+  --color-instagram: #C231A1;
+  --color-vimeo: #00ADEF;
+  --color-twitch: #6441A3;
+  --color-discord: #7289da;
+  --p-light: 300;
+  --p-regular: 400;
+  --p-medium: 500;
+  --p-semi-bold: 600;
+  --p-bold: 700;
+  --p-extra-bold: 800;
+  --p-black: 900;
+  --s-light: 300;
+  --s-regular: 400;
+  --s-medium: 500;
+  --s-semi-bold: 600;
+  --s-bold: 700;
+  --s-extra-bold: 800;
+  --s-black: 900;
+  --transition: 0.3s;
+  --font-primary: "Exo", sans-serif;
+  --font-secondary: "Albert Sans", sans-serif;
+  --font-size-b1: 16px;
+  --font-size-b2: 16px;
+  --font-size-b3: 22px;
+  --line-height-b1: 26px;
+  --line-height-b2: 26px;
+  --line-height-b3: 1.7;
+  --h1: 60px;
+  --h2: 48px;
+  --h3: 30px;
+  --h4: 26px;
+  --h5: 24px;
+  --h6: 18px;
+}
+
+.rts-tab-advance .nav {
+  background: #F2F3F5;
+  padding: 12px 6px;
+  margin: 0;
+  margin-top: 35px;
+}
+.rts-tab-advance .nav li button {
+  border: none;
+  background: transparent;
+  border-radius: 100px;
+  padding: 8px 25px;
+  color: #1F1F25;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Exo", sans-serif;
+  position: relative;
+}
+.rts-tab-advance .nav li button::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 2px;
+  width: 0;
+  content: "";
+  background: #1F1F25;
+}
+.rts-tab-advance .nav li button.active {
+  padding-left: 70px;
+}
+.rts-tab-advance .nav li button.active::before {
+  margin-left: 25px;
+  width: 40px;
+}
+
+.tab-custom-nav .nav {
+  float: right;
+  position: relative;
+  bottom: 102px;
+  z-index: 1;
+}
+.tab-custom-nav .tab-content {
+  clear: both;
+}/*# sourceMappingURL=advance-tab.css.map */

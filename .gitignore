@@ -1,0 +1,27 @@
+# WordPress
+wordpress/
+wp-config.php
+
+# Environment
+.env
+
+# Docker
+.docker/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Database
+*.sql
+*.sql.gz
+

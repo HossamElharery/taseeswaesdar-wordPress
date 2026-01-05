@@ -1,0 +1,85 @@
+/*
+ Theme Name:   Bizgen Child
+ Theme URI:    https://themewant.com/products/wordpress/bizgen
+ Description:  Bizgen Child Theme - للتعديلات المخصصة
+ Author:       ReacThemes
+ Author URI:   http://reactheme.com
+ Template:     bizgen
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+ Text Domain:  bizgen-child
+*/
+
+/* 
+ * جميع التعديلات المخصصة هنا
+ * Custom modifications go here
+ */
+
+/* تنسيقات اللوجو المخصص - Custom Logo Styles */
+.header-logo .custom-logo-link {
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.header-logo .custom-logo {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    max-height: 60px !important;
+    width: auto !important;
+}
+
+/* إخفاء النص إذا كان موجود */
+.header-logo .site-title {
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo .site-title a {
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+
+.header-logo .site-title a img {
+    text-indent: 0;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+/* تنسيقات لوجو Footer */
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer-logo-img {
+    max-height: 50px !important;
+    width: auto !important;
+    margin: 0 auto;
+    display: block;
+}
+
+/* تنسيقات لوجو الجوال */
+@media (max-width: 768px) {
+    .header-logo .custom-logo {
+        max-height: 50px !important;
+    }
+}
+
+/* تنسيقات لوجو Sticky */
+.sticky .header-logo .custom-logo {
+    max-height: 50px !important;
+}
+
+/* إجبار عرض اللوجو */
+.header-logo img.custom-logo {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}

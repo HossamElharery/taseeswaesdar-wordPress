@@ -1,0 +1,102 @@
+:root {
+  --color-primary: #4AAB3D;
+  --color-secondary: #1F1F25;
+  --color-body: #6E777D;
+  --color-heading-1: #1f1f25;
+  --color-white:#fff;
+  --color-success: #3EB75E;
+  --color-danger: #FF0003;
+  --color-warning: #FF8F3C;
+  --color-info: #1BA2DB;
+  --color-facebook: #3B5997;
+  --color-twitter: #1BA1F2;
+  --color-youtube: #ED4141;
+  --color-linkedin: #0077B5;
+  --color-pinterest: #E60022;
+  --color-instagram: #C231A1;
+  --color-vimeo: #00ADEF;
+  --color-twitch: #6441A3;
+  --color-discord: #7289da;
+  --p-light: 300;
+  --p-regular: 400;
+  --p-medium: 500;
+  --p-semi-bold: 600;
+  --p-bold: 700;
+  --p-extra-bold: 800;
+  --p-black: 900;
+  --s-light: 300;
+  --s-regular: 400;
+  --s-medium: 500;
+  --s-semi-bold: 600;
+  --s-bold: 700;
+  --s-extra-bold: 800;
+  --s-black: 900;
+  --transition: 0.3s;
+  --font-primary: "Exo", sans-serif;
+  --font-secondary: "Albert Sans", sans-serif;
+  --font-size-b1: 16px;
+  --font-size-b2: 16px;
+  --font-size-b3: 22px;
+  --line-height-b1: 26px;
+  --line-height-b2: 26px;
+  --line-height-b3: 1.7;
+  --h1: 60px;
+  --h2: 48px;
+  --h3: 30px;
+  --h4: 26px;
+  --h5: 24px;
+  --h6: 18px;
+}
+
+.rs-skill-bar .skillbar {
+  background: #eeeeee;
+  display: inline-block;
+  height: 6px;
+  position: relative;
+  width: 100%;
+}
+.rs-skill-bar .skillbar .skillbar-bar {
+  background: #FD8F14;
+  height: 8px;
+  width: 0;
+  margin-bottom: 0;
+}
+.rs-skill-bar .skillbar .skillbar-title,
+.rs-skill-bar .skillbar .skill-bar-percent {
+  position: absolute;
+}
+.rs-skill-bar .skillbar .skillbar-title {
+  color: #212121;
+  font-size: 20px;
+  font-weight: 600;
+}
+.rs-skill-bar .skillbar .skill-bar-percent {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1F1F25;
+}
+.rs-skill-bar.animation .skillbar .skillbar-bar, .rs-skill-bar.striped .skillbar .skillbar-bar {
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem;
+}
+.rs-skill-bar.animation .skillbar .skillbar-bar {
+  animation: rs-progress-pie-stripes 1s linear infinite;
+}
+.rs-skill-bar.style1 .skillbar .skillbar-title {
+  top: -20px;
+}
+.rs-skill-bar.style1 .skillbar .skill-bar-percent {
+  right: 0;
+  top: -20px;
+}
+.rs-skill-bar.style2 .skillbar .skillbar-title {
+  left: 0;
+  padding: 2px 20px 0;
+  top: 0;
+  width: 160px;
+  background: #83b614;
+}
+.rs-skill-bar.style2 .skillbar .skill-bar-percent {
+  right: 10px;
+  top: 0;
+}/*# sourceMappingURL=progress.css.map */

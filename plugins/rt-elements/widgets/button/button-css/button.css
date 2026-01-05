@@ -1,0 +1,290 @@
+:root {
+  --color-primary: #4AAB3D;
+  --color-secondary: #1F1F25;
+  --color-body: #6E777D;
+  --color-heading-1: #1f1f25;
+  --color-white:#fff;
+  --color-success: #3EB75E;
+  --color-danger: #FF0003;
+  --color-warning: #FF8F3C;
+  --color-info: #1BA2DB;
+  --color-facebook: #3B5997;
+  --color-twitter: #1BA1F2;
+  --color-youtube: #ED4141;
+  --color-linkedin: #0077B5;
+  --color-pinterest: #E60022;
+  --color-instagram: #C231A1;
+  --color-vimeo: #00ADEF;
+  --color-twitch: #6441A3;
+  --color-discord: #7289da;
+  --p-light: 300;
+  --p-regular: 400;
+  --p-medium: 500;
+  --p-semi-bold: 600;
+  --p-bold: 700;
+  --p-extra-bold: 800;
+  --p-black: 900;
+  --s-light: 300;
+  --s-regular: 400;
+  --s-medium: 500;
+  --s-semi-bold: 600;
+  --s-bold: 700;
+  --s-extra-bold: 800;
+  --s-black: 900;
+  --transition: 0.3s;
+  --font-primary: "Exo", sans-serif;
+  --font-secondary: "Albert Sans", sans-serif;
+  --font-size-b1: 16px;
+  --font-size-b2: 16px;
+  --font-size-b3: 22px;
+  --line-height-b1: 26px;
+  --line-height-b2: 26px;
+  --line-height-b3: 1.7;
+  --h1: 60px;
+  --h2: 48px;
+  --h3: 30px;
+  --h4: 26px;
+  --h5: 24px;
+  --h6: 18px;
+}
+
+.react-button a {
+  display: inline-block;
+  color: #fff;
+  padding: 17px 33px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Exo", sans-serif;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #4AAB3D;
+  border-radius: 2px;
+  position: relative;
+  transition: 0.3s;
+  z-index: 1;
+  overflow: hidden;
+}
+.react-button a:hover {
+  background: #1F1F25;
+}
+.react-button a svg {
+  width: 20px;
+  position: relative;
+}
+.react-button a::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #1F1F25;
+  transform: translateY(110%);
+  transition: 0.3s;
+  z-index: -1;
+}
+.react-button a:hover::after {
+  transform: translateY(0%);
+}
+.react-button.secondary_btn a {
+  background: #1F1F25;
+}
+.react-button.secondary_btn a:after {
+  background: #4AAB3D;
+}
+
+.slider-react-button {
+  display: inline-block;
+  color: #fff;
+  padding: 17px 33px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Exo", sans-serif;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #4AAB3D;
+  border-radius: 2px;
+  position: relative;
+  transition: 0.3s;
+  z-index: 1;
+  overflow: hidden;
+  cursor: pointer;
+}
+.slider-react-button:hover {
+  background: #1F1F25;
+}
+.slider-react-button svg {
+  width: 20px;
+  position: relative;
+}
+.slider-react-button::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #1F1F25;
+  transform: translateY(110%);
+  transition: 0.3s;
+  z-index: -1;
+}
+.slider-react-button:hover::after {
+  transform: translateY(0%);
+}
+.slider-react-button.style-2:hover {
+  background: #1F1F25;
+  color: #fff !important;
+}
+
+.slider-call-area {
+  display: flex;
+  align-items: flex-start;
+}
+.slider-call-area .icon i {
+  width: 52px;
+  height: 52px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4AAB3D;
+  font-weight: 600;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.slider-call-area .slider-detail span {
+  display: block;
+  text-transform: capitalize;
+  color: #6e777d;
+  margin-bottom: 10px;
+}
+.slider-call-area .slider-detail a {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  line-height: 37px;
+  transition: 0.3s;
+}
+.slider-call-area .slider-detail a:hover {
+  color: #4AAB3D;
+}
+
+#rev_slider_2_1_wrapper .zeus .tp-tab {
+  text-align: center;
+}
+#rev_slider_2_1_wrapper .zeus .tp-tab .tp-tab-title {
+  display: inline-block;
+  background: transparent;
+  line-height: 8px;
+  position: relative;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.tp-tabs-inner-wrapper .tp-tab.selected .tp-tab-title {
+  position: relative;
+}
+.tp-tabs-inner-wrapper .tp-tab.selected .tp-tab-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #000;
+  margin-top: 10px;
+}
+
+.slider-react-button.handyman_slider_btn.rs-layer {
+  padding: 15px 60px 15px 24px;
+  position: relative;
+}
+.slider-react-button.handyman_slider_btn.rs-layer:hover {
+  color: #fff !important;
+}
+.slider-react-button.handyman_slider_btn.rs-layer::before {
+  content: "\ea65";
+  font-family: "rt-icons";
+  display: inline-block;
+  background: #4AAB3D;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-react-button.engineer.rs-layer {
+  background: transparent !important;
+  border: 1px solid #FFFFFF !important;
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  padding: 18px 30px 18px 30px;
+}
+.slider-react-button.engineer.rs-layer:hover {
+  border: 1px solid #4AAB3D !important;
+}
+.slider-react-button.engineer.rs-layer:hover::after {
+  background: #4AAB3D !important;
+}
+
+.slider-react-button.engineer.btn-1.rs-layer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 18px 70px 18px 30px !important;
+}
+.slider-react-button.engineer.btn-1.rs-layer::before {
+  content: "\ea65";
+  font-family: "rt-icons";
+  display: inline-block;
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #4AAB3D;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.engineer_slider .tp-tabs-inner-wrapper .tp-tab-title {
+  color: #ffffff;
+  background: transparent;
+  width: 67px !important;
+  height: 67px !important;
+  line-height: 67px !important;
+  text-align: center;
+  padding: 20px 10px !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.engineer_slider .tp-tabs-inner-wrapper .tp-tab.selected .tp-tab-title::after {
+  content: "";
+  display: none;
+}
+
+.engineer_slider #rev_slider_6_1_wrapper .zeus .tp-tab.selected .tp-tab-title {
+  color: #4AAB3D !important;
+  background: #ffffff;
+}
+
+button.metform-btn.metform-submit-btn.solari_metform_btn svg {
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  padding: 13px;
+  margin-left: 14px;
+}/*# sourceMappingURL=button.css.map */

@@ -1,0 +1,52 @@
+.rt-marquee .Marquee {
+  box-sizing: border-box;
+  padding: 0;
+  color: #fff;
+  font-weight: 200;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -o-box-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+.rt-marquee .Marquee-content {
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  animation: marquee 50s linear infinite running;
+}
+.rt-marquee .Marquee-content:hover {
+  animation-play-state: paused;
+}
+.rt-marquee .Marquee-tag {
+  width: 1350px;
+  margin: 0 0.5em;
+  padding: 0.5em;
+  background: rgba(255, 255, 255, 0.1);
+  display: -ms-inline-flexbox;
+  display: inline-box;
+  display: inline-flex;
+  display: flex;
+  -o-box-align: center;
+  align-items: center;
+  -o-box-pack: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+.rt-marquee .Marquee-tag h3 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #CDCDCD;
+}
+.rt-marquee .Marquee-tag:hover {
+  cursor: pointer;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translate(-50%);
+  }
+}/*# sourceMappingURL=marquee.css.map */
