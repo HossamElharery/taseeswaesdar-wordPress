@@ -1,0 +1,58 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+documentation/
+*.md
+
+# Docker files
+docker-compose.yml
+.dockerignore
+Dockerfile
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+logs/
+
+# Node modules (if any)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# WordPress specific (will be mounted as volumes)
+# wordpress/wp-content/uploads/
+# wordpress/wp-content/cache/
+
+# Licensing
+Licensing/
+

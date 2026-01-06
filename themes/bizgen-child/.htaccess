@@ -1,5 +1,0 @@
-# Allow access to logo image
-<Files "logo.png">
-    Order Allow,Deny
-    Allow from all
-</Files>
