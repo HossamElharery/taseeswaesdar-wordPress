@@ -1,15 +1,15 @@
-# Copyright (C) 2025 MonsterInsights
+# Copyright (C) 2026 MonsterInsights
 # This file is distributed under the GPL v3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Google Analytics for WordPress by MonsterInsights 9.11.0\n"
+"Project-Id-Version: Google Analytics for WordPress by MonsterInsights 9.11.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/google-analytics-for-wordpress-working-dir\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-12-17T16:38:17+00:00\n"
+"POT-Creation-Date: 2026-01-06T14:52:06+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.13.0-alpha\n"
 "X-Domain: google-analytics-for-wordpress\n"
@@ -345,8 +345,8 @@ msgstr ""
 msgid "Abandonments"
 msgstr ""
 
-#: includes/admin/admin.php:152
-#: includes/admin/admin.php:303
+#: includes/admin/admin.php:149
+#: includes/admin/admin.php:300
 msgid "About Us"
 msgstr ""
 
@@ -356,7 +356,7 @@ msgstr ""
 msgid "activate"
 msgstr ""
 
-#: includes/admin/admin.php:1033
+#: includes/admin/admin.php:1037
 msgid "Activate"
 msgstr ""
 
@@ -2368,7 +2368,7 @@ msgstr ""
 msgid "Get insights about your website by simply asking"
 msgstr ""
 
-#: includes/admin/admin.php:397
+#: includes/admin/admin.php:394
 #: includes/admin/notifications/notification-upgrade-eu-traffic.php:86
 #: includes/admin/notifications/notification-upgrade-for-custom-dimensions.php:31
 #: includes/admin/notifications/notification-upgrade-for-email-summaries.php:36
@@ -2732,9 +2732,9 @@ msgstr ""
 
 #: includes/admin/admin.php:55
 #: includes/admin/admin.php:69
+#: includes/admin/admin.php:236
 #: includes/admin/admin.php:239
-#: includes/admin/admin.php:242
-#: includes/admin/admin.php:283
+#: includes/admin/admin.php:280
 msgid "Insights"
 msgstr ""
 
@@ -2780,8 +2780,8 @@ msgstr ""
 msgid "Install MonsterInsights"
 msgstr ""
 
-#: includes/admin/admin.php:902
-#: includes/admin/admin.php:1035
+#: includes/admin/admin.php:899
+#: includes/admin/admin.php:1039
 msgid "Install Now"
 msgstr ""
 
@@ -3094,8 +3094,8 @@ msgstr ""
 msgid "Learn how visitors arrive to your website and which are the most engaged or profitable."
 msgstr ""
 
-#: includes/admin/admin.php:532
-#: includes/admin/admin.php:1039
+#: includes/admin/admin.php:529
+#: includes/admin/admin.php:1043
 #: includes/admin/common.php:659
 #: includes/admin/common.php:685
 #: includes/admin/common.php:717
@@ -3231,7 +3231,7 @@ msgstr ""
 msgid "Make your MonsterInsights campaign links prettier with Pretty Links!"
 msgstr ""
 
-#: includes/admin/admin.php:1027
+#: includes/admin/admin.php:1031
 msgid "Make Your Website Analytics Compliant with Privacy Laws"
 msgstr ""
 
@@ -3645,7 +3645,7 @@ msgstr ""
 msgid "Note: You will be transfered to %1$s.com to complete the setup wizard."
 msgstr ""
 
-#: includes/admin/admin.php:534
+#: includes/admin/admin.php:531
 #: lite/includes/admin/dashboard-widget.php:150
 msgid "Note: You will be transfered to MonsterInsights.com to complete the setup wizard."
 msgstr ""
@@ -4059,7 +4059,7 @@ msgstr ""
 msgid "Please set up custom dimension \"%s\" for this report to work."
 msgstr ""
 
-#: includes/admin/admin.php:529
+#: includes/admin/admin.php:526
 msgid "Please Setup Website Analytics to See Audience Insights"
 msgstr ""
 
@@ -4172,7 +4172,7 @@ msgstr ""
 msgid "Privacy Guard"
 msgstr ""
 
-#: includes/admin/admin.php:1028
+#: includes/admin/admin.php:1032
 msgid "Privacy laws like GDPR, CCPA, and others require user consent before you can track visitors. Our sister plugin, WPConsent, helps you add a smart cookie consent banner for better privacy compliance with Google Analytics."
 msgstr ""
 
@@ -4415,7 +4415,7 @@ msgid "Report Unavailable"
 msgstr ""
 
 #: includes/admin/admin.php:62
-#: includes/admin/admin.php:287
+#: includes/admin/admin.php:284
 msgid "Reports"
 msgstr ""
 
@@ -4819,7 +4819,7 @@ msgid "Set Up WPConsent"
 msgstr ""
 
 #: includes/admin/admin.php:66
-#: includes/admin/admin.php:390
+#: includes/admin/admin.php:387
 msgid "Settings"
 msgstr ""
 
@@ -5103,9 +5103,9 @@ msgstr ""
 msgid "Sun"
 msgstr ""
 
+#: includes/admin/admin.php:377
 #: includes/admin/admin.php:380
-#: includes/admin/admin.php:383
-#: includes/admin/admin.php:961
+#: includes/admin/admin.php:958
 msgid "Support"
 msgstr ""
 
@@ -5872,7 +5872,7 @@ msgstr ""
 msgid "Upgrade and Unlock"
 msgstr ""
 
-#: includes/admin/admin.php:906
+#: includes/admin/admin.php:903
 #: includes/admin/notifications/notification-upgrade-for-form-conversion.php:31
 #: includes/admin/notifications/notification-upgrade-for-search-console.php:32
 #: includes/admin/notifications/notification-upgrade-to-pro-five-hundred-session.php:44
@@ -5897,7 +5897,7 @@ msgstr ""
 msgid "Upgrade to MonsterInsights Pro to Unlock More Actionable Insights"
 msgstr ""
 
-#: includes/admin/admin.php:161
+#: includes/admin/admin.php:158
 #: includes/admin/notifications/notification-upgrade-to-pro-high-traffic.php:41
 #: includes/admin/notifications/notification-upgrade-to-pro.php:33
 msgid "Upgrade to Pro"
@@ -6587,11 +6587,11 @@ msgstr ""
 msgid "Your license has expired."
 msgstr ""
 
-#: includes/admin/admin.php:560
+#: includes/admin/admin.php:557
 msgid "Your license key for MonsterInsights has been disabled. Please use a different key."
 msgstr ""
 
-#: includes/admin/admin.php:562
+#: includes/admin/admin.php:559
 #: includes/admin/api-auth.php:311
 msgid "Your license key for MonsterInsights is invalid. The key no longer exists or the user associated with the key has been deleted. Please use a different key."
 msgstr ""
@@ -7681,7 +7681,7 @@ msgstr ""
 
 #: includes/admin/admin.php:62
 #: includes/admin/admin.php:69
-#: includes/admin/admin.php:287
+#: includes/admin/admin.php:284
 msgid "General Reports:"
 msgstr ""
 
@@ -7724,7 +7724,7 @@ msgid "User Journey"
 msgstr ""
 
 #: includes/admin/admin.php:118
-#: includes/admin/admin.php:295
+#: includes/admin/admin.php:292
 msgid "SEO"
 msgstr ""
 
@@ -7737,12 +7737,12 @@ msgid "Tools"
 msgstr ""
 
 #: includes/admin/admin.php:129
-#: includes/admin/admin.php:298
+#: includes/admin/admin.php:295
 msgid "Addons:"
 msgstr ""
 
 #: includes/admin/admin.php:129
-#: includes/admin/admin.php:298
+#: includes/admin/admin.php:295
 msgid "Addons"
 msgstr ""
 
@@ -7754,209 +7754,209 @@ msgstr ""
 msgid "Privacy Compliance:"
 msgstr ""
 
-#: includes/admin/admin.php:145
+#: includes/admin/admin.php:143
 msgid "Privacy Compliance"
 msgstr ""
 
-#: includes/admin/admin.php:152
-#: includes/admin/admin.php:303
+#: includes/admin/admin.php:149
+#: includes/admin/admin.php:300
 msgid "About Us:"
 msgstr ""
 
-#: includes/admin/admin.php:161
+#: includes/admin/admin.php:158
 msgid "Upgrade to Pro:"
 msgstr ""
 
-#: includes/admin/admin.php:174
+#: includes/admin/admin.php:171
 msgid "Earth Day"
 msgstr ""
 
-#: includes/admin/admin.php:182
+#: includes/admin/admin.php:179
 msgid "Cinco De Mayo!"
 msgstr ""
 
-#: includes/admin/admin.php:190
+#: includes/admin/admin.php:187
 msgid "Upgrade to GA4"
 msgstr ""
 
-#: includes/admin/admin.php:198
+#: includes/admin/admin.php:195
 msgid "Summer Sale"
 msgstr ""
 
-#: includes/admin/admin.php:206
+#: includes/admin/admin.php:203
 msgid "Fortune Cookie Day"
 msgstr ""
 
-#: includes/admin/admin.php:214
+#: includes/admin/admin.php:211
 msgid "Halloween Sale"
 msgstr ""
 
-#: includes/admin/admin.php:283
-#: includes/admin/admin.php:285
+#: includes/admin/admin.php:280
+#: includes/admin/admin.php:282
 msgid "Network Settings:"
 msgstr ""
 
-#: includes/admin/admin.php:285
-#: includes/admin/admin.php:388
+#: includes/admin/admin.php:282
+#: includes/admin/admin.php:385
 msgid "Network Settings"
 msgstr ""
 
-#: includes/admin/admin.php:295
+#: includes/admin/admin.php:292
 msgid "SEO:"
 msgstr ""
 
-#: includes/admin/admin.php:375
+#: includes/admin/admin.php:372
 msgid "MonsterInsights Knowledge Base"
 msgstr ""
 
-#: includes/admin/admin.php:375
+#: includes/admin/admin.php:372
 msgid "Documentation"
 msgstr ""
 
 #. Translators: Placeholders add a link to the wordpress.org repository.
-#: includes/admin/admin.php:470
+#: includes/admin/admin.php:467
 #, php-format
 msgid "Please rate %1$sMonsterInsights%2$s %3$s on %4$sWordPress.org%5$s to help us spread the word."
 msgstr ""
 
-#: includes/admin/admin.php:501
+#: includes/admin/admin.php:498
 msgid "Urgent: Your Website is Not Tracking Any Google Analytics Data!"
 msgstr ""
 
-#: includes/admin/admin.php:502
+#: includes/admin/admin.php:499
 msgid "Google Analytics 3 (UA) and support was sunset on July 1, 2023. Your website is currently NOT tracking any analytics. </br>Create or connect a new Google Analytics 4 property immediately to start tracking."
 msgstr ""
 
-#: includes/admin/admin.php:512
+#: includes/admin/admin.php:509
 msgid "Learn How to Create a GA4 Property"
 msgstr ""
 
-#: includes/admin/admin.php:515
+#: includes/admin/admin.php:512
 msgid "Connect a Property"
 msgstr ""
 
-#: includes/admin/admin.php:530
+#: includes/admin/admin.php:527
 msgid "Please Connect Your Website to MonsterInsights"
 msgstr ""
 
-#: includes/admin/admin.php:535
+#: includes/admin/admin.php:532
 msgid "MonsterInsights, the #1 WordPress Analytics Plugin, helps you easily connect your website to Google Analytics, so that you can see how people find and use your website. Over 3 million website owners use MonsterInsights to see the stats that matter and grow their business."
 msgstr ""
 
 #. Translators: Adds a link to retrieve the license.
-#: includes/admin/admin.php:546
+#: includes/admin/admin.php:543
 #, php-format
 msgid "Warning: No valid license key has been entered for MonsterInsights. You are currently not getting updates, and are not able to view reports. %1$sPlease click here to enter your license key and begin receiving updates and reports.%2$s"
 msgstr ""
 
 #. Translators: Adds a link to the license renewal.
-#: includes/admin/admin.php:558
+#: includes/admin/admin.php:555
 #, php-format
 msgid "Your license key for MonsterInsights has expired. %1$sPlease click here to renew your license key.%2$s"
 msgstr ""
 
 #. Translators: Adds a link to renew license.
-#: includes/admin/admin.php:567
+#: includes/admin/admin.php:564
 #, php-format
 msgid "Your network license key for MonsterInsights has expired. %1$sPlease click here to renew your license key.%2$s"
 msgstr ""
 
-#: includes/admin/admin.php:569
+#: includes/admin/admin.php:566
 msgid "Your network license key for MonsterInsights has been disabled. Please use a different key."
 msgstr ""
 
-#: includes/admin/admin.php:571
+#: includes/admin/admin.php:568
 msgid "Your network license key for MonsterInsights is invalid. The key no longer exists or the user associated with the key has been deleted. Please use a different key."
 msgstr ""
 
 #. Translators: Placeholders add the PHP version, a link to the MonsterInsights blog and a line break.
-#: includes/admin/admin.php:593
+#: includes/admin/admin.php:590
 #, php-format
 msgid "Your site is running an outdated, insecure version of PHP (%1$s), which could be putting your site at risk for being hacked.%4$sWordPress stopped supporting your PHP version in April, 2019.%4$sUpdating PHP only takes a few minutes and will make your website significantly faster and more secure.%4$s%2$sLearn more about updating PHP%3$s"
 msgstr ""
 
 #. Translators: Placeholders add the PHP version, a link to the MonsterInsights blog and a line break.
-#: includes/admin/admin.php:596
+#: includes/admin/admin.php:593
 #, php-format
 msgid "Your site is running an outdated, insecure version of PHP (%1$s), which could be putting your site at risk for being hacked.%4$sWordPress stopped supporting your PHP version in November, 2019.%4$sUpdating PHP only takes a few minutes and will make your website significantly faster and more secure.%4$s%2$sLearn more about updating PHP%3$s"
 msgstr ""
 
 #. Translators: Placeholders add the PHP version, a link to the MonsterInsights blog and a line break.
-#: includes/admin/admin.php:599
+#: includes/admin/admin.php:596
 #, php-format
 msgid "Your site is running an outdated, insecure version of PHP (%1$s), which could be putting your site at risk for being hacked.%4$sWordPress is working towards discontinuing support for your PHP version.%4$sUpdating PHP only takes a few minutes and will make your website significantly faster and more secure.%4$s%2$sLearn more about updating PHP%3$s"
 msgstr ""
 
 #. Translators: Placeholders add links to the settings panel.
-#: includes/admin/admin.php:677
+#: includes/admin/admin.php:674
 #, php-format
 msgid "Important: You are currently using manual GA4 Measurement ID output. We highly recommend %1$sauthenticating with MonsterInsights%2$s so that you can access our new reporting area and take advantage of new MonsterInsights features."
 msgstr ""
 
 #. Translators: Placeholders add links to the settings panel.
-#: includes/admin/admin.php:682
+#: includes/admin/admin.php:679
 #, php-format
 msgid "Click %1$shere%2$s to reauthenticate to be able to access reports. For more information why this is required, see our %3$sblog post%4$s."
 msgstr ""
 
 #. Translators: Placeholders add a link to the MonsterInsights website.
-#: includes/admin/admin.php:729
-#: includes/admin/admin.php:781
+#: includes/admin/admin.php:726
+#: includes/admin/admin.php:778
 #, php-format
 msgid "%1$sGet MonsterInsights Pro%2$s"
 msgstr ""
 
-#: includes/admin/admin.php:736
+#: includes/admin/admin.php:733
 msgid "Save <span>50%</span> Off MonsterInsights Pro"
 msgstr ""
 
-#: includes/admin/admin.php:747
+#: includes/admin/admin.php:744
 msgid "Add eCommerce Analytics to your WooCommerce Store"
 msgstr ""
 
-#: includes/admin/admin.php:748
+#: includes/admin/admin.php:745
 msgid "Unlock all of our advanced eCommerce features specifically designed to help your store make more money.."
 msgstr ""
 
-#: includes/admin/admin.php:749
+#: includes/admin/admin.php:746
 msgid "MonsterInsights Pro users instantly gain access to valuable insights such as average order value, conversion rates, as well as marketing performance with UTM tracking."
 msgstr ""
 
-#: includes/admin/admin.php:750
+#: includes/admin/admin.php:747
 msgid "And by upgrading, Pro users also get enhanced tracking for Forms, User Journeys, PPC Pixels, Custom UserID tracking, SEO Reports, and much more."
 msgstr ""
 
-#: includes/admin/admin.php:751
+#: includes/admin/admin.php:748
 msgid "Start making better data-driven decisions today!"
 msgstr ""
 
 #. Translators: Adds a link to the settings panel.
-#: includes/admin/admin.php:797
+#: includes/admin/admin.php:794
 #, php-format
 msgid "Warning: MonsterInsights found cross-domain settings in the custom code field and converted them to the new settings structure.  %1$sPlease click here to review and remove the code no longer needed.%2$s"
 msgstr ""
 
 #. translators: Placeholders add a link to an article.
-#: includes/admin/admin.php:874
+#: includes/admin/admin.php:871
 #, php-format
 msgid "Your Measurement Protocol API Secret is currently left blank. To see more advanced analytics please enter a Measurement API Secret. %1$sLearn how to find your API Secret%2$s."
 msgstr ""
 
 #. translators: Placeholders link to addons page.
-#: includes/admin/admin.php:912
+#: includes/admin/admin.php:909
 #, php-format
 msgid "We've detected you have our %1$sMonsterInsights Ads%2$s addon activated. Please activate our %3$sPPC Tracking%4$s addon for more advanced features and powerful integrations."
 msgstr ""
 
-#: includes/admin/admin.php:966
+#: includes/admin/admin.php:963
 msgid "Docs"
 msgstr ""
 
-#: includes/admin/admin.php:971
+#: includes/admin/admin.php:968
 msgid "Free Plugins"
 msgstr ""
 
-#: includes/admin/admin.php:978
+#: includes/admin/admin.php:975
 #, php-format
 msgid "Made with %1$s by the MonsterInsights Team"
 msgstr ""

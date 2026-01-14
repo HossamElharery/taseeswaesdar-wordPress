@@ -924,6 +924,18 @@
     "file": "img/yir-star.svg",
     "src": "src/assets/img/yir-star.svg"
   },
+  "src/modules/admin/admin.css": {
+    "file": "css/admin.css",
+    "src": "src/modules/admin/admin.css"
+  },
+  "src/modules/admin/admin.js": {
+    "css": [
+      "css/admin.css"
+    ],
+    "file": "js/admin.min.js",
+    "isEntry": true,
+    "src": "src/modules/admin/admin.js"
+  },
   "src/modules/feature-feedback/icons/nps/rate-1.svg": {
     "file": "img/rate-1.svg",
     "src": "src/modules/feature-feedback/icons/nps/rate-1.svg"

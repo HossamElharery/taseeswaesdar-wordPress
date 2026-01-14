@@ -1,0 +1,63 @@
+<?php
+/**
+ * قالب wp-config.php للإنتاج على هوستنجر
+ * 
+ * التعليمات:
+ * 1. انسخ هذا الملف إلى wp-config.php على السيرفر
+ * 2. استبدل القيم بين الأقواس [] بالقيم الفعلية من هوستنجر
+ * 3. احذف هذا التعليق بعد التعديل
+ */
+
+// ** Database settings - من لوحة تحكم هوستنجر ** //
+define( 'DB_NAME', '[database_name]' );        // اسم قاعدة البيانات
+define( 'DB_USER', '[database_user]' );        // اسم المستخدم
+define( 'DB_PASSWORD', '[database_password]' ); // كلمة المرور
+define( 'DB_HOST', 'localhost' );              // عادة localhost على هوستنجر
+define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_COLLATE', '' );
+
+// ** Secret Keys - من https://api.wordpress.org/secret-key/1.1/salt/ ** //
+define( 'AUTH_KEY',         '[put your unique phrase here]' );
+define( 'SECURE_AUTH_KEY',  '[put your unique phrase here]' );
+define( 'LOGGED_IN_KEY',    '[put your unique phrase here]' );
+define( 'NONCE_KEY',        '[put your unique phrase here]' );
+define( 'AUTH_SALT',        '[put your unique phrase here]' );
+define( 'SECURE_AUTH_SALT', '[put your unique phrase here]' );
+define( 'LOGGED_IN_SALT',   '[put your unique phrase here]' );
+define( 'NONCE_SALT',       '[put your unique phrase here]' );
+
+$table_prefix = 'wp_';
+
+// ** إعدادات الإنتاج ** //
+define( 'WP_DEBUG', false );
+define( 'WP_DEBUG_LOG', false );
+define( 'WP_DEBUG_DISPLAY', false );
+
+// ** الأمان ** //
+define( 'DISALLOW_FILE_EDIT', true ); // منع تعديل الملفات من لوحة التحكم
+define( 'WP_AUTO_UPDATE_CORE', true ); // تحديث تلقائي
+
+// ** SSL/HTTPS ** //
+// إذا كان لديك SSL Certificate، فعّل هذا:
+// define( 'FORCE_SSL_ADMIN', true );
+
+// ** زيادة وقت nonce ** //
+define('NONCE_LIFETIME', 86400); // 24 ساعة
+
+// ** إعدادات الذاكرة ** //
+define( 'WP_MEMORY_LIMIT', '256M' );
+define( 'WP_MAX_MEMORY_LIMIT', '512M' );
+
+// ** إعدادات الرفع ** //
+define( 'WP_UPLOAD_MAX_SIZE', '64M' );
+
+/* That's all, stop editing! Happy publishing. */
+
+/** Absolute path to the WordPress directory. */
+if ( ! defined( 'ABSPATH' ) ) {
+	define( 'ABSPATH', __DIR__ . '/' );
+}
+
+/** Sets up WordPress vars and included files. */
+require_once ABSPATH . 'wp-settings.php';
+
